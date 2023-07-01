@@ -1,0 +1,63 @@
+.loadingDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.title h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+.notFoundPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.notFoundPage h4{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.refreshTours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.refreshTours h3{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.refreshTours button{
+    border: none;
+    background-color: rgb(76, 223, 93);
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
+.refreshTours button:hover{
+    cursor: pointer;
+    
+}
